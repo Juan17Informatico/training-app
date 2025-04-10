@@ -1,0 +1,22 @@
+.training-list {
+    margin-top: 20px;
+}
+
+.training-list h2 {
+    color: #333;
+}
+
+.training-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.training-list li {
+    background: #f9f9f9;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    text-align: left;
+}
