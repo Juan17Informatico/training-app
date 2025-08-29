@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Training Tracker</h1>
+      <h1>Training Tracker App</h1>
       <TrainingForm addTraining={addTraining} />
       <TrainingList trainings={trainings} />
     </div>
