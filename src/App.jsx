@@ -3,7 +3,7 @@ import TrainingForm from "./components/TrainingForm";
 import TrainingList from "./components/TrainingList";
 import "./App.css";
 
-function App() {
+const App = () => {
   const [trainings, setTrainings] = useState([]);
 
   const addTraining = (newTraining) => {

@@ -1,7 +1,7 @@
 import React from "react";
 import "./TrainingList.css";
 
-function TrainingList({ trainings }) {
+const TrainingList = ({ trainings }) => {
   return (
     <div className="training-list">
       <h2>Training History</h2>

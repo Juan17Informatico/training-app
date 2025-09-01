@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./TrainingForm.css";
 
-function TrainingForm({ addTraining }) {
+const TrainingForm = ({ addTraining }) => {
   const [exercise, setExercise] = useState("");
   const [sets, setSets] = useState("");
   const [reps, setReps] = useState("");
