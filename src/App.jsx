@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import { useState, useCallback } from "react";
 import TrainingForm from "./components/TrainingForm";
 import TrainingList from "./components/TrainingList";
 import "./App.css";
